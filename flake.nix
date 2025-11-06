@@ -18,7 +18,8 @@
       default = pkgs.mkShell {
         packages = with pkgs; [
           # nodejs_22 # Node.js 18, plus npm, npx, and corepack
-          # svelte-language-server
+          svelte-language-server
+          # typescript-language-server
           bun
         ];
       };
